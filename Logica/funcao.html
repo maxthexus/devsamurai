@@ -1,0 +1,37 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+
+        function soma(a, b){
+           return a + b
+        }
+        function subtracao(a, b){
+           return a - b
+        }
+        function multiplicacao(a, b){
+           return a * b
+        }
+        function divisao(a, b){
+           return a / b
+        }
+
+        var n1 = Number(prompt("Numero 1"))
+        var n2 = Number(prompt("Numero 2"))
+        var operacao = prompt("Operação")
+
+        if(operacao == "+"){
+            var resultado = soma(n1, n2)
+        }else if(operacao == "-"){
+            var resultado = subtracao(n1, n2)
+        }else if(operacao == "*"){
+            var resultado = multiplicacao(n1, n2)
+        }else if(operacao == "/"){
+            var resultado = divisao(n1, n2)
+        }else{
+            alert("Digite um operador valido!")
+        }
+        
+
+        alert(resultado)
+    </script>
+</html>

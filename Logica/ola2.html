@@ -1,0 +1,17 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+        var idioma = prompt("Digite o código do Idioma")
+        var regiao = prompt("Digite a Regiao do Idioma")
+
+        if(idioma == "pt" && (regiao == "br" || regiao == "pt")){
+            alert("Olá")
+        }else if(idioma == "en" && regiao == "us"){
+            alert("Hi")
+        }else if(idioma == "en" && regiao == "gb"){
+            alert("Hello")
+        }else{
+            alert("Verifique se o idioma e região estão corretos.")
+        }
+    </script>
+</html>
