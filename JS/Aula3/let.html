@@ -1,0 +1,19 @@
+<html>
+    <script>
+
+        //let equivale a uma "Variavel Local"
+        let x = 10
+        console.log("x", x)
+
+        {
+            console.log("x", x)
+            x = 20
+
+            let y = 30
+        }
+
+        console.log("x", x)
+        //não é acessivel fora do escopo {}
+        console.log("y", y)
+    </script>
+</html>
